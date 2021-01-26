@@ -32,6 +32,7 @@ body{
 
 header {
     min-height: 100px;
+    width: 100%;
 }
 .header-menu{
     width: 100%;
@@ -189,10 +190,20 @@ a{
   
   }
 
- .end{
+ .end-main{
     min-height: 150px ;
     margin: 0;
     background-color: #00000029;
+
+}
+
+.end{
+    min-height: 150px ;
+    margin: 0;
+    background-color: #00000029;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 
 }
 
